@@ -76,7 +76,7 @@ exports.registrarUsuario = async (req, res) => {
 };
 
 
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 exports.loginUsuario = async (req, res) => {
